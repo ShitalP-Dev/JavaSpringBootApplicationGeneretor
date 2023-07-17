@@ -28,9 +28,6 @@ A Yeoman generator for generating Microservices with SpringBoot
 
 ### Generate SpringBoot Microservice
 
-![Microservice Generation](docs/server-generation-1.png)
-![Microservice Generation](docs/server-generation-2.png)
-
 ### Generate REST API with CRUD operations
 You can generate REST API with CRUD operation using the following command:
 
@@ -46,9 +43,6 @@ This will generate:
 * Unit and Integration Tests for REST Controller
 * Flyway or Liquibase migration to create table
 
-![CRUD Generation](docs/crud-generation.png)
-
-
 ## Why another generator when you have JHipster?
 JHipster is an amazing SpringBoot application generator with lots and lots of cool features.
 However, there are certain JHipster features that does not fit for my preferences such as:
@@ -63,7 +57,7 @@ However, there are certain JHipster features that does not fit for my preference
 ## Local Development Setup
 
 ```
-> git clone https://github.com/sivaprasadreddy/generator-springboot.git
+> git clone https://github.com/ShitalP-Dev/spingboot.git
 > cd generator-springboot
 > npm install 
 > npm link
