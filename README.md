@@ -64,29 +64,4 @@ However, there are certain JHipster features that does not fit for my preference
 > yo springboot
 ```
 
-## Changelog
 
-### Version 0.0.5
-* Added support for generating docker-compose yml files for application, ELK, Prometheus, Grafana
-
-### Version 0.0.6
-* Updated to use testcontainers-spring-boot https://github.com/testcontainers/testcontainers-spring-boot
-* Generate Zipkin docker-compose file when Distributed Tracing is selected
-* Fixed Flyway/Liquibase db migration script generation issue
-* Added tests for sanity check
-
-### Version 0.0.7
-* Removed support for generation of `config-server` and `service-registry`
-* Updated SpringBoot and other libraries version
-
-### Version 0.0.8
-* Configured Checkstyle, PMD, SonarQube, google-java-format plugins
-* Added Localstack autoconfiguration support
-
-### Version 0.0.10
-* Upgraded SpringBoot to 2.6.7 and library versions
-* Updated Spring Cloud AWS setup to use new https://awspring.io/ based configuration
-* Removed `springfox-boot-starter` and used `springdoc-openapi-ui`
-* Added google-java-format support
-* Upgraded plugins versions
-* Removed Checkstyle, PMD plugins
